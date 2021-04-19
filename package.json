@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
-  "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
+  "name": "iqans.com",
+  "description": "Personal Site. Iqan Shaikh.",
   "version": "3.0.0",
-  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "author": "iqan.shaikh@gmail.com",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
@@ -37,6 +37,7 @@
     "dev": "gatsby develop -o",
     "develop": "gatsby develop",
     "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/iqan/iqan.github.io.git",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
     "lint:ci": "yarn lint --format junit -o results/eslint/result.xml"
@@ -53,11 +54,11 @@
     "prettier": "^1.18.2"
   },
   "repository": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "url": "https://github.com/iqan/iqan.github.io",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara/issues"
+    "url": "https://github.com/iqan/iqan.github.io/issues"
   },
-  "homepage": "https://cara.lekoarts.de"
+  "homepage": "https://iqans.com"
 }

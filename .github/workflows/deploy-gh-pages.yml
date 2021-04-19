@@ -16,4 +16,6 @@ jobs:
       with:
         node-version: 10.15.1
     - run: npm install -g gatsby-cli
+    - run: git config --global user.email "iqan@iqans.com"
+    - run: git config --global user.name "Iqan Shaikh"
     - run: yarn install && yarn run deploy

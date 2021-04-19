@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 10.15.1
+      uses: actions/setup-node@v2
+      with:
+        node-version: 10.15.1
+    - run: npm install -g gatsby-cli
+    - run: yarn install && yarn run deploy

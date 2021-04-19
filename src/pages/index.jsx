@@ -83,7 +83,7 @@ const Index = () => (
         </AboutDesc>
       </About>
       <Projects offset={2}>
-        <Title>Articles</Title>
+        <Title>Articles and Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
             title="Sending notifications to mobile devices using Azure Functions"
@@ -113,11 +113,6 @@ const Index = () => (
           >
             Article on how to set up CI/CD (continuous integration and continuous deployment) pipeline for a web app built with ReactJS.
           </ProjectCard>
-        </ProjectsWrapper>
-      </Projects>
-      <Projects offset={3}>
-        <Title>Projects</Title>
-        <ProjectsWrapper>
           <ProjectCard
             title="Notes App"
             link="https://github.com/iqan/notes-app"
@@ -148,7 +143,7 @@ const Index = () => (
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
-      <Contact offset={4}>
+      <Contact offset={3}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>

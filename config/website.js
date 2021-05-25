@@ -16,7 +16,7 @@ module.exports = {
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   userTwitter: '@iqanshaikh', // Twitter Username
-  ogSiteName: 'iqan12', // Facebook Site Name
+  ogSiteName: 'iqanshaikh', // Facebook Site Name
   ogLanguage: 'en_US', // Facebook Language
   googleAnalyticsID: '',
 

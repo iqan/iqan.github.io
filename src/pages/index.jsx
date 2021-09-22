@@ -153,7 +153,7 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:iqan.shaikh@gmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://linkedin.com/in/iqanshaikh">LinkedIn</a> |{' '}
+            <a href="https://linkedin.com/in/iqan">LinkedIn</a> |{' '}
             <a href="https://facebook.com/iqanshaikh">Facebook</a> |{' '}
             <a href="https://www.instagram.com/iqans/">Instagram</a> |{' '}
             <a href="https://github.com/iqan">Github</a> |{' '}

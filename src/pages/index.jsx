@@ -72,7 +72,7 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="Iqan Shaikh" />
           <AboutSub>
-            Sr. Consultant at Deloitte | .NET | MS Azure | DevOps | NodeJS | React | Flutter | React Native
+            Sr. Consultant at Deloitte | .NET | MS Azure | AWS | DevOps | Angular | React | Flutter
           </AboutSub>
         </AboutHero>
         <AboutDesc>

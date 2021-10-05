@@ -6,7 +6,7 @@ module.exports = {
   siteTitle: 'Iqan Shaikh',
   siteTitleAlt: 'Iqan Shaikh',
   siteTitleShort: 'Iqan',
-  siteHeadline: 'Iqan Shaikh - Sr. Consultant - Azure, .NET, Flutter',
+  siteHeadline: 'Iqan Shaikh - Sr. Consultant - .NET, Azure, AWS, Flutter',
   siteUrl: 'https://iqans.com',
   siteLanguage: 'en',
   siteLogo: '/logo.png',
@@ -18,7 +18,7 @@ module.exports = {
   userTwitter: '@iqanshaikh', // Twitter Username
   ogSiteName: 'iqanshaikh', // Facebook Site Name
   ogLanguage: 'en_US', // Facebook Language
-  googleAnalyticsID: '',
+  googleAnalyticsID: 'G-48D0R4Y6QN',
 
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,

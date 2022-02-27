@@ -65,7 +65,7 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Iqan Shaikh.
         </BigTitle>
-        <Subtitle>Microsoft certified azure developer associate. I’m a learner, dreamer, passionate programmer, mentor, badminton player, gamer and software craftsman.</Subtitle>
+        <Subtitle>AWS certified solution architect &amp; Microsoft certified azure developer associate. I'm a learner, dreamer, passionate programmer, mentor, badminton player, gamer and software craftsman.</Subtitle>
       </Hero>
       <About offset={1}>
         <Title>About</Title>

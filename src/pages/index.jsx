@@ -65,19 +65,19 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Iqan Shaikh.
         </BigTitle>
-        <Subtitle>AWS certified solution architect &amp; Microsoft certified azure developer associate. I'm a learner, dreamer, passionate programmer, mentor, badminton player, gamer and software craftsman.</Subtitle>
+        <Subtitle>I'm a learner, dreamer, passionate engineer, mentor, badminton player, gamer and software craftsman. AWS certified solution architect &amp; Microsoft certified azure developer associate.</Subtitle>
       </Hero>
       <About offset={1}>
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="Iqan Shaikh" />
           <AboutSub>
-            Sr. Consultant at Deloitte | .NET | MS Azure | AWS | DevOps | Angular | React | Flutter
+            Sr. Software Engineer at ASOS.com | .NET | MS Azure | AWS | DevOps | Angular | React | Flutter
           </AboutSub>
         </AboutHero>
         <AboutDesc>
           I have written code that does solve problems of a few people and some features for a retailer 
-          having 14 million customers. I’ve been making some good and some great projects for over 5 years. 
+          having 14 million customers. I’ve been making some good and some great projects for over a decade. 
           From my experience I have learned many lessons due to my constant urge to experiment.
           I code, play video games and some sport, learn and listen – usually not in that order.
         </AboutDesc>

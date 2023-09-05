@@ -1,0 +1,54 @@
+name: Publish Gatsby App to GitHub Pages
+
+on: [ push, workflow_dispatch ]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build_artifacts:
+    name: Build App
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 18.x
+
+    - name: Install gatsby-cli
+      run: npm install -g gatsby-cli
+
+    - name: Install dependencies
+      run: yarn --frozen-lockfile
+
+    - name: Upload artifact for web
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: public
+
+  deploy:
+    name: Deploy App to GitHub Pages
+    needs:
+    - build_artifacts
+
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v1

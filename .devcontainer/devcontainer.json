@@ -6,7 +6,7 @@
 
 	// "forwardPorts": [],
 
-	"postCreateCommand": "npm install -g gatsby-cli",
+	"postCreateCommand": "yarn install",
 
 	"customizations": {
 		"vscode": {

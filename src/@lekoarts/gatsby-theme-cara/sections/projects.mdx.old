@@ -1,0 +1,30 @@
+## Projects
+
+<ProjectCard
+  title="Notes App"
+  link="https://github.com/iqan/notes-app"
+  bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+>
+  A MEAN stack app with material design and microservice architecture.
+</ProjectCard>
+<ProjectCard
+  title="NodeJS starter template"
+  link="https://github.com/iqan/node-api-starter"
+  bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+>
+  A starter template for nodejs-expressjs-mongodb api with container support.
+</ProjectCard>
+<ProjectCard
+  title="Service testing with Docker"
+  link="https://github.com/iqan/service-testing-docker-poc"
+  bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+>
+  A proof of concept showcasing .Net Core service running in container and acceptance tests executing on it.
+</ProjectCard>
+<ProjectCard
+  title="Tic Tac Toe mobile game"
+  link="https://github.com/iqan/react-native-tic-tac-toe"
+  bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+>
+  A tic-tac-toe game in react native.
+</ProjectCard>

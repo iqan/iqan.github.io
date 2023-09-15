@@ -12,7 +12,7 @@ const config: GatsbyConfig = {
     siteDescription: `Consultation for cloud native applications, DevOps and mobile application development`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@iqan`,
+    author: `@iqan_shaikh`,
   },
   trailingSlash: `always`,
   plugins: [
